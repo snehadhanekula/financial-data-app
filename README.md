@@ -1,71 +1,118 @@
-# Getting Started with Create React App
+# 📊 Financial Data Filtering App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that allows users to filter and visualize financial data using interactive charts and tables. The app fetches real-time financial data from the Financial Modeling Prep API and displays it using interactive filters and charts.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+✅ Fetches real-time financial data from the [Financial Modeling Prep API](https://financialmodelingprep.com/)  
+✅ Interactive filtering by **date range**, **revenue range**, and **net income range**  
+✅ Sorting options for **date**, **revenue**, **net income**, and more  
+✅ Beautiful **line charts** using Chart.js to visualize revenue, net income, and gross profit  
+✅ Styled with **TailwindCSS** for a clean, responsive UI  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+Here's a breakdown of the project files and folders:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+financial-data-app/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.css
+│   └── ...
+├── package.json
+└── README.md
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Frontend framework
+- **Axios**: For making API requests
+- **Chart.js**: For data visualization
+- **TailwindCSS**: For styling the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖥️ How to Run the Project Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/yourusername/financial-data-app.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd financial-data-app
+   ```
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the app:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📊 API Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The app uses the **Financial Modeling Prep API** to fetch financial data, specifically the annual income statements for Apple Inc. (AAPL).  
+👉 Get your free API key here: [https://financialmodelingprep.com/developer](https://financialmodelingprep.com/developer)
 
-### Making a Progressive Web App
+API Endpoint used:
+```
+https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey=YOUR_API_KEY
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Add a screenshot of your app here for visual appeal!
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👤 Author
 
-### `npm run build` fails to minify
+- **Name:** Sneha Dhanekula  
+- **GitHub:** [https://github.com/snehadhanekula](https://github.com/snehadhanekula)  
+- **LinkedIn:** [https://www.linkedin.com/in/neha-dhanekula/](https://www.linkedin.com/in/neha-dhanekula/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# financial-data-app
+---
+
+## 🌐 Live Demo
+
+The app is live at:  
+**[https://financial-data-app.vercel.app](https://financial-data-app.vercel.app)** (Replace with your Vercel link once deployed)
+
+---
+
+## 🔧 Future Improvements
+
+- Add more sorting options (e.g., gross profit, EPS)  
+- Add pagination for large datasets  
+- Improve responsiveness for mobile devices  
+- Include more financial metrics for comprehensive analysis  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+
