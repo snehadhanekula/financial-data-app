@@ -93,7 +93,7 @@ https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&api
 ## 🌐 Live Demo
 
 The app is live at:  
-**[https://financial-data-app.vercel.app](https://financial-data-app.vercel.app)** (Replace with your Vercel link once deployed)
+**[https://financial-data-app-five.vercel.app](https://financial-data-app-five.vercel.app)** (Replace with your Vercel link once deployed)
 
 ---
 
