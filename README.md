@@ -76,14 +76,9 @@ The app uses the **Financial Modeling Prep API** to fetch financial data, specif
 
 API Endpoint used:
 ```
-https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey=YOUR_API_KEY
+https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey=8tarPzZ94mM0PnL0kjyEG6ZtsBY0EB8i
 ```
 
----
-
-## 📸 Screenshots
-
-Add a screenshot of your app here for visual appeal!
 
 ---
 
@@ -104,15 +99,11 @@ The app is live at:
 
 ## 🔧 Future Improvements
 
-- Add more sorting options (e.g., gross profit, EPS)  
 - Add pagination for large datasets  
 - Improve responsiveness for mobile devices  
 - Include more financial metrics for comprehensive analysis  
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
 
 
