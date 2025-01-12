@@ -91,7 +91,7 @@ Add a screenshot of your app here for visual appeal!
 
 - **Name:** Sneha Dhanekula  
 - **GitHub:** [https://github.com/snehadhanekula](https://github.com/snehadhanekula)  
-- **LinkedIn:** [https://www.linkedin.com/in/neha-dhanekula/](https://www.linkedin.com/in/neha-dhanekula/)
+- **LinkedIn:** [https://www.linkedin.com/in/snehadhanekula/](https://www.linkedin.com/in/neha-dhanekula/)
 
 ---
 
